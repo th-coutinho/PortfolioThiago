@@ -56,7 +56,7 @@ nav {
     height: auto; }
   .brand .background {
     height: 750px;
-    background: #ffffff url("/img/mouse.png");
+    background: #ffffff url("/PortfolioThiago/img/mouse.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 725px; }
@@ -130,7 +130,7 @@ nav {
       .profile div {
         width: 100%; } }
   .profile .photo {
-    background: transparent url("/img/profile-photo.png");
+    background: transparent url("/PortfolioThiago/img/profile-photo.png");
     background-repeat: no-repeat;
     background-position: 65% 0; }
     @media only screen and (max-width: 768px) {
@@ -215,15 +215,15 @@ nav {
 .skills-content ul {
   padding-top: 50px; }
   .skills-content ul li:nth-child(1) {
-    background: transparent url("/img/skills-icons/html.png"); }
+    background: transparent url("/PortfolioThiago/img/skills-icons/html.png"); }
   .skills-content ul li:nth-child(2) {
-    background: transparent url("/img/skills-icons/css.png"); }
+    background: transparent url("/PortfolioThiago/img/skills-icons/css.png"); }
   .skills-content ul li:nth-child(3) {
-    background: transparent url("/img/skills-icons/js.png"); }
+    background: transparent url("/PortfolioThiago/img/skills-icons/js.png"); }
   .skills-content ul li:nth-child(4) {
-    background: transparent url("/img/skills-icons/bootstrap.png"); }
+    background: transparent url("/PortfolioThiago/img/skills-icons/bootstrap.png"); }
   .skills-content ul li:nth-child(5) {
-    background: transparent url("/img/skills-icons/jquery.png"); }
+    background: transparent url("/PortfolioThiago/img/skills-icons/jquery.png"); }
 
 .extra {
   height: 650px;
@@ -252,11 +252,11 @@ nav {
       margin-bottom: 50px;
       background-size: auto 100% !important; } }
   .extra-content ul li:nth-child(1) {
-    background: transparent url("/img/extra/2.png"); }
+    background: transparent url("/PortfolioThiago/img/extra/2.png"); }
   .extra-content ul li:nth-child(2) {
-    background: transparent url("/img/extra/3.png"); }
+    background: transparent url("/PortfolioThiago/img/extra/3.png"); }
   .extra-content ul li:nth-child(3) {
-    background: transparent url("/img/extra/1.png"); }
+    background: transparent url("/PortfolioThiago/img/extra/1.png"); }
 
 .box-outside {
   position: absolute;
@@ -336,13 +336,13 @@ nav {
         .tools-content ul li {
           margin-bottom: 85px; } }
     .tools-content ul li:nth-child(1) {
-      background: transparent url("/img/tools/photoshop.png"); }
+      background: transparent url("/PortfolioThiago/img/tools/photoshop.png"); }
     .tools-content ul li:nth-child(2) {
-      background: transparent url("/img/tools/android.png"); }
+      background: transparent url("/PortfolioThiago/img/tools/android.png"); }
     .tools-content ul li:nth-child(3) {
-      background: transparent url("/img/tools/unity.png"); }
+      background: transparent url("/PortfolioThiago/img/tools/unity.png"); }
     .tools-content ul li:nth-child(4) {
-      background: transparent url("/img/tools/office.png"); }
+      background: transparent url("/PortfolioThiago/img/tools/office.png"); }
 
 .tools-description {
   position: absolute;
@@ -417,7 +417,7 @@ nav {
 .contact {
   height: 720px;
   width: 100%;
-  background: transparent url("/img/landscape-rj.png");
+  background: transparent url("/PortfolioThiago/img/landscape-rj.png");
   border-top: 20px solid #e3e3e3;
   position: relative; }
 
