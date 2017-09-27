@@ -1,0 +1,56 @@
+.contact {
+	height: 720px;
+	width: 100%;
+	background: transparent url('/img/landscape-rj.png');
+    border-top: 20px solid #e3e3e3;
+    position: relative;
+}
+
+.contact-me {
+	position: absolute;
+    right: 24%;
+    top: 42%;
+    height: 100px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid #ce9671;
+    text-transform: uppercase;
+    @extend %defaultFont;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: -2px 5px 45px #362f2d;
+    transition: all 1s;
+
+    &:hover {
+    	width: 400px;
+    	background-color: #ce9671;
+    	transition: all 1s;
+    }
+}
+
+.social-medias {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	background-color: rgba(165, 113, 80, 0.43);
+	line-height: 122px;
+
+	div {
+		height: 100px;
+		ul{			
+		    width: 15%;
+			li{
+				display: inline-block;
+				margin: 0 20px;
+			}
+		}
+	}
+}
+
+.social-icon {
+	color: white;
+	font-size: 50px;
+}

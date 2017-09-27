@@ -1,0 +1,72 @@
+.skills {
+	padding-top: 60px;
+	height: 380px;
+	background-color: $cor1;	
+
+	@media only screen and (max-width: 768px) {
+		height: 485px;
+	}
+
+	@media only screen and (max-width: 600px) {
+		height: auto;
+	}
+}
+
+.skills-title {
+	@extend %titles-divs;
+}
+
+%skill-icon {
+	display: inline-block;
+	height: 125px;
+	width: 19%;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+
+	@media only screen and (max-width: 768px) {
+		width: 32.5%;
+	}
+
+	@media only screen and (max-width: 600px) {
+		width: 48.5%;
+		//background-position: 42% !important;
+	}
+}
+
+.skills-content {
+		ul {
+
+			padding-top: 50px;
+
+			li:nth-child(1) {				
+				background: transparent url('/img/skills-icons/html.png');
+				//background-position: 30px;
+				@extend %skill-icon;
+			}
+
+			li:nth-child(2) {				
+				background: transparent url('/img/skills-icons/css.png');
+				//background-position: 56px;
+				@extend %skill-icon;
+			}
+
+			li:nth-child(3) {				
+				background: transparent url('/img/skills-icons/js.png');
+				//background-position: 56px;
+				@extend %skill-icon;
+			}
+
+			li:nth-child(4) {				
+				background: transparent url('/img/skills-icons/bootstrap.png');
+				//background-position: 56px 13px;
+				@extend %skill-icon;
+			}
+
+			li:nth-child(5) {				
+				background: transparent url('/img/skills-icons/jquery.png');
+				//background-position: 56px;
+				@extend %skill-icon;
+			}
+		}
+	}
+

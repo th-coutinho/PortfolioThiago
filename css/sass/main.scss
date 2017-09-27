@@ -1,0 +1,67 @@
+$cor1 : #e3e3e3; //cinza claro
+$cor2 : #ffffff; //branco
+$cor3 : #e1d6ce; //laranja claro
+$cor4 : #373737; //cinza-mais-escuro
+
+$cor-fonte: #858585; //cinza escuro
+$estilo-fonte: 'Raleway', sans-serif;
+
+%defaultFont { // Fonte Geral
+	color: $cor-fonte;
+	font-family: $estilo-fonte;
+}
+
+%darkerFont { //Fonte Geral Mais Escura
+	color: darken($cor-fonte, 10%);
+	font-family: $estilo-fonte;
+}
+
+@import "../layout/1-nav";
+@import "../layout/2-brand";
+@import "../layout/3-profile";
+
+// Estilos Gerais para os SCSS abaixo
+
+.division-marker{
+	float: left;
+	width: 31%;
+	height: 1px;
+	background-color: darken($cor-fonte, 10);
+
+	@media only screen and (max-width: 768px) {
+		width: 25%;
+	}
+}
+
+.section-name {
+	float: left;
+	width: 38%;
+
+    font-size: 24px;
+	font-weight: 700;
+	@extend %darkerFont;
+
+	text-align: center;
+
+	@media only screen and (max-width: 992px) { 
+		font-size: 18px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		width: 50%;
+	}
+}
+
+%titles-divs {
+	line-height: 40px;
+	height: 40px;
+}
+// Fim do Estilos Gerais
+
+@import "../layout/4-skills";
+@import "../layout/5-extra";
+@import "../layout/6-tools";
+@import "../layout/7-exp";
+@import "../layout/8-contact";
+
+

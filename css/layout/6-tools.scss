@@ -1,0 +1,109 @@
+.tools {
+	padding-top: 60px;
+	height: auto;
+	background-color: $cor1;	
+
+	@media only screen and (max-width: 768px) {
+		height: auto;
+	}
+	
+}
+
+.tools-title {
+	@extend %titles-divs;
+}
+
+%tools-icon {
+	display: inline-block;
+	height: 125px;
+	width: 24.5%;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+
+	@media only screen and (max-width: 768px) {
+		width: 48.5%;
+	}
+
+	@media only screen and (max-width: 600px) {
+
+	}
+}
+
+.tools-content {
+    height: 300px;
+
+    @media only screen and (max-width: 768px) {
+		height: auto;
+	}
+
+	ul {
+	    height: 240px;
+		width: 84%;
+		margin: 20px auto;
+		padding-top: 50px;
+
+		@media only screen and (max-width: 768px) {
+			height: auto;
+		}	
+
+		li {
+			position: relative;
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 50px;
+			}
+
+			@media only screen and (max-width: 480px) {
+				margin-bottom: 85px;
+			}				   
+		}
+
+		li:nth-child(1) {				
+			background: transparent url('/img/tools/photoshop.png');
+			//background-position: 30px;
+			@extend %tools-icon;
+		}
+
+		li:nth-child(2) {				
+			background: transparent url('/img/tools/android.png');
+			//background-position: 56px;
+			@extend %tools-icon;
+		}
+
+		li:nth-child(3) {				
+			background: transparent url('/img/tools/unity.png');
+			//background-position: 56px;
+			@extend %tools-icon;
+		}
+
+		li:nth-child(4) {				
+			background: transparent url('/img/tools/office.png');
+			//background-position: 56px 13px;
+			@extend %tools-icon;
+		}
+		
+	}
+}
+
+.tools-description {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+    bottom: -40px;
+    text-align: center;
+    line-height: 20px;
+    @extend %defaultFont;
+
+    @media only screen and (max-width: 992px) {
+		bottom: -75px;
+	}
+
+	@media only screen and (max-width: 768px) {
+		font-size: 14px;
+		bottom: -35px;
+	}
+
+	@media only screen and (max-width: 480px) {		
+		bottom: -60px;
+	}    
+}
+
