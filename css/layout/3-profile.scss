@@ -4,6 +4,14 @@
 
 	@media only screen and (max-width: 768px) {
 		height: 721px;
+	}
+
+	@media only screen and (max-width: 600px) {
+		height: 800px;
+	}
+
+	@media only screen and (max-width: 480px) { 
+		height: 1000px;
 	}	
 
 	div {
@@ -15,6 +23,8 @@
 		@media only screen and (max-width: 768px) {
     		width: 100%;
     	}
+
+    	
 	}
 
 	.photo {
@@ -33,6 +43,14 @@
 		@media only screen and (max-width: 768px) {
 			height: auto;
 		    padding: 34px 0px
+		}
+
+		@media only screen and (max-width: 600px) {
+			padding: 5px 0px;
+		}
+
+		@media only screen and (max-width: 480px) { 
+			padding: 20% 0px;
 		}
 
 		background-color: $cor2;
@@ -61,6 +79,8 @@
 		    @media only screen and (max-width: 768px) {
     			width: 100%;
     		}
+
+		 	
 
 		}
 		

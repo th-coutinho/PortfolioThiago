@@ -25,13 +25,39 @@
    </head>
    <body>
       <header>
+
+         <button class="navbar-button">
+           <div></div>
+           <div></div>
+           <div></div>
+         </button>
+
          <nav class="navigationBar">
             <ul>
-               <li class="nav-button" name="skills">CONHECIMENTOS</li>
-               <li class="nav-button" name="nav-projects">PROJETOS</li>
-               <li class="nav-button" name="nav-exp">EXPERIÊNCIAS</li>
-               <li class="nav-button" name="nav-contact">FERRAMENTAS</li>
-               <li class="nav-button" name="nav-home">CONTATO</li>
+               <li class="nav-button" id="welcome">
+                  INÍCIO
+                  <div class="nav-itens-line" id="line-welcome"></div>
+               </li>
+               <li class="nav-button" id="skills">
+                  CONHECIMENTOS
+                  <div class="nav-itens-line" id="line-skills"></div>
+               </li>
+               <li class="nav-button" id="extra">
+                  PROJETOS
+                  <div class="nav-itens-line" id="line-extra"></div>
+               </li>
+               <li class="nav-button" id="tools">
+                  FERRAMENTAS
+                  <div class="nav-itens-line" id="line-tools"></div>
+               </li>
+               <li class="nav-button" id="exp">
+                  EXPERIÊNCIAS
+                  <div class="nav-itens-line" id="line-exp"></div>
+               </li>               
+               <li class="nav-button" id="contact">
+                  CONTATO
+                  <div class="nav-itens-line" id="line-contact"></div>
+               </li>
             </ul>
          </nav>
       </header>
@@ -39,7 +65,7 @@
       <section class="brand">      
          <div class="container background">
             <h1>
-               <img class="logo" src="./img/logo.png" alt="Thiago Coutinho">
+               <img class="logo" src="/PortfolioThiago/img/logo.png" alt="Thiago Coutinho">
             </h1>         
          </div>       
       </section>
@@ -51,25 +77,11 @@
                Minhas especialidades são páginas <span>bonitas</span> e <span>responsivas</span>!
             </p>
          </div>         
-      </section>
+      </section> 
 
-      <section class="profile">
-         <div class="photo">         
-         </div>      
-         <div class="text">
-            <p>
-               Tenho 25 anos e sou formado em Desenvolvimento de Jogos Digitais.
-               Atualmente, moro em Niterói - Rio de Janeiro, cidade onde nasci e cresci.
-               Sou apaixonado por tecnologia, jogos, filmes e tenho uma paixão por criar, de forma geral.<br><br>
+      
 
-               Ingressei área de desenvolvimento por paixão aos games e encontrei, com sorte, grande realização na área do Desenvolvimento Web. Nos últimos anos adquiri muito conhecimento em desenvolvimento de Front-end, Games e Design.<br><br>
-
-               Atualmente, estou também disponível para trabalhos freelancer e home office.
-            </p>         
-         </div>
-      </section>      
-
-      <section class="skills">
+      <section id="skills" class="skills">
          <div class="skills-title container">
             <hr class="division-marker">
             <h2 class="section-name">Tenho conhecimentos em:</h2>
@@ -80,6 +92,7 @@
                <li><!--alt="Logo-HTML5"--></li>
                <li><!--alt="Logo-CSS3"--></li>
                <li><!--alt="Logo-JS"--></li>
+               <li><!--alt="Logo-Sass"--></li>
                <li><!-- alt="Logo-Bootstrap"--></li>
                <li><!--alt="Logo-Jquery"--></li>
             </ul>
@@ -90,7 +103,7 @@
          <div class="extra-title container">
             <hr class="division-marker">
             <h2 class="section-name">Atividades Extracurriculares:</h2>
-            <hr class="divisionMarker">   
+            <hr class="division-marker">   
          </div>
          <div class="extra-content container">
             <ul>
@@ -164,14 +177,28 @@
          <div class="exp-content container">
             <p>
                <span class="glyphicon glyphicon-briefcase"></span>Estágio - Empresa: Lab245 Softwares<br>
-               <span class="glyphicon glyphicon-time"></span>Início: 12/2016 | Saída: 07/2017.<br>
-               <span class="glyphicon glyphicon-list-alt"></span>Trabalhei no auxílio do desenvolvimento de aplicações web, principalmente com Front-End.
+               <span class="glyphicon glyphicon-time"></span>Início: 12/2016 | Saída: 07/2017<br>
+               <span class="glyphicon glyphicon-list-alt"></span>Trabalhei no auxílio do desenvolvimento de aplicações web. <br> Atuando, principalmente, na parte de Front-End na elaboração de páginas responsivas.
 
             </p>
          </div>
       </section>
 
-      
+      <section class="profile">
+         <div class="photo">         
+         </div>      
+         <div class="text">
+            <p>
+               Tenho 25 anos e sou formado em Desenvolvimento de Jogos Digitais.
+               Atualmente, moro em Niterói - Rio de Janeiro, cidade onde nasci e cresci.
+               Sou apaixonado por tecnologia, jogos, filmes e tenho uma paixão por criar, de forma geral.<br><br>
+
+               Ingressei área de desenvolvimento por paixão aos games e encontrei, com sorte, grande realização na área do Desenvolvimento Web. Nos últimos anos adquiri muito conhecimento em desenvolvimento de Front-end, Games e Design.<br><br>
+
+               Atualmente, estou também disponível para trabalhos freelancer e home office.
+            </p>         
+         </div>
+      </section>
 
       <footer class="contact">
          <button class="contact-me">Entre em contato</button>
@@ -194,9 +221,9 @@
       </footer>
 
       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="./js/jquery.animatedscroll-1.1.5.min.js"></script>   
+      <script src="https://plugins.compzets.com/animatescroll/js/animatescroll.js?v=1.0.5"></script>   
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="./js/portfolio-animations.js"></script>
+      <script src="/PortfolioThiago/js/portfolio-animations-min.js"></script>
 
    </body>  
 </html>

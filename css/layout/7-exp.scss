@@ -13,6 +13,7 @@
 
 .exp-content {
 	p {
+		text-align: center;
 		@extend %defaultFont;
 	    line-height: 25px;
         margin-top: 50px;
