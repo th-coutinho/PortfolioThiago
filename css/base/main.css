@@ -449,6 +449,8 @@ nav {
   .social-medias div {
     height: 100px; }
     .social-medias div ul {
+      overflow: hidden;
+      height: 80px;
       width: 15%; }
       .social-medias div ul li {
         display: inline-block;
