@@ -1,4 +1,4 @@
-nav ul li, .welcome div p, .profile .text p, .box-content p, .tools-description, .exp-content p, .contact-me {
+nav ul li, .welcome div h2, .profile .text p, .box-content p, .tools-description, .exp-content p, .contact-me {
   color: #858585;
   font-family: "Raleway", sans-serif; }
 
@@ -63,8 +63,8 @@ nav {
   z-index: 5;
   line-height: 50px;
   position: fixed;
-  top: 30px;
-  right: 10%;
+  top: 10px;
+  right: 10px;
   background-color: #e3e3e3;
   height: 50px;
   width: 50px;
@@ -109,41 +109,38 @@ nav {
   position: fixed;
   z-index: -1;
   top: 80px;
-  height: 950px;
+  height: 90vh;
   background-color: #ffffff; }
-  @media only screen and (max-width: 992px) {
-    .brand {
-      height: 750px; } }
   @media only screen and (max-width: 480px) {
     .brand {
       height: auto; } }
   .brand h1 {
     height: auto; }
   .brand .background {
-    height: 750px;
-    background: #ffffff url("/PortfolioThiago/img/mouse.png");
+    height: 90vh;
+    background: #ffffff url("/img/mouse.png");
     background-position: center;
+    background-position-y: -1vh;
     background-repeat: no-repeat;
-    background-size: auto 725px; }
-    @media only screen and (max-width: 992px) {
-      .brand .background {
-        height: 500px;
-        background-size: auto 500px; } }
+    background-size: auto 90vh; }
     @media only screen and (max-width: 468px) {
       .brand .background {
         height: 300px;
         background-size: auto 100%; } }
     .brand .background .logo {
       display: block;
-      margin: 146px auto;
-      height: 445px; }
+      margin: 15vh auto;
+      height: 60vh; }
+      @media only screen and (max-width: 1200px) {
+        .brand .background .logo {
+          height: 55vh; } }
       @media only screen and (max-width: 992px) {
         .brand .background .logo {
-          margin: 95px auto;
-          height: 300px; } }
-      @media only screen and (max-width: 600px) {
+          height: 47vh;
+          margin: 20vh auto; } }
+      @media only screen and (max-width: 860px) {
         .brand .background .logo {
-          width: 100%;
+          width: 90%;
           height: auto; } }
       @media only screen and (max-width: 468px) {
         .brand .background .logo {
@@ -157,7 +154,7 @@ nav {
           margin-top: 65px; } }
 
 .welcome {
-  margin-top: 850px;
+  margin-top: 100vh;
   height: 200px;
   background-color: #e1d6ce; }
   @media only screen and (max-width: 992px) {
@@ -176,11 +173,11 @@ nav {
         height: auto;
         font-size: 16px;
         padding-bottom: 50px; } }
-    .welcome div p {
+    .welcome div h2 {
       line-height: 30px;
       text-align: center;
       font-size: 18px; }
-      .welcome div p span {
+      .welcome div h2 span {
         font-weight: 700; }
 
 .profile {
@@ -204,7 +201,7 @@ nav {
       .profile div {
         width: 100%; } }
   .profile .photo {
-    background: transparent url("/PortfolioThiago/img/profile-photo.png");
+    background: transparent url("/img/profile-photo.png");
     background-repeat: no-repeat;
     background-position: 65% 0; }
     @media only screen and (max-width: 768px) {
@@ -267,9 +264,12 @@ nav {
   @media only screen and (max-width: 768px) {
     .section-name {
       width: 50%;
-      line-height: 40px;
-      /* height: 53px; */
-      margin-top: 0; } }
+      line-height: 24px;
+      margin-top: 8px; } }
+  @media only screen and (max-width: 480px) {
+    .section-name {
+      width: 50%;
+      margin-top: 10px; } }
 
 .skills-title, .extra-title, .tools-title, .exp-title {
   line-height: 40px;
@@ -302,17 +302,17 @@ nav {
 .skills-content ul {
   padding-top: 50px; }
   .skills-content ul li:nth-child(1) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/html.png"); }
+    background: transparent url("/img/skills-icons/html.png"); }
   .skills-content ul li:nth-child(2) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/css.png"); }
+    background: transparent url("/img/skills-icons/css.png"); }
   .skills-content ul li:nth-child(3) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/js.png"); }
+    background: transparent url("/img/skills-icons/js.png"); }
   .skills-content ul li:nth-child(4) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/sass2.png"); }
+    background: transparent url("/img/skills-icons/sass.png"); }
   .skills-content ul li:nth-child(5) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/jquery.png"); }
+    background: transparent url("/img/skills-icons/jquery.png"); }
   .skills-content ul li:nth-child(6) {
-    background: transparent url("/PortfolioThiago/img/skills-icons/bootstrap.png"); }
+    background: transparent url("/img/skills-icons/bootstrap.png"); }
 
 .extra {
   height: 650px;
@@ -341,11 +341,11 @@ nav {
       margin-bottom: 50px;
       background-size: auto 100% !important; } }
   .extra-content ul li:nth-child(1) {
-    background: transparent url("/PortfolioThiago/img/extra/2.png"); }
+    background: transparent url("/img/extra/2.png"); }
   .extra-content ul li:nth-child(2) {
-    background: transparent url("/PortfolioThiago/img/extra/3.png"); }
+    background: transparent url("/img/extra/3.png"); }
   .extra-content ul li:nth-child(3) {
-    background: transparent url("/PortfolioThiago/img/extra/1.png"); }
+    background: transparent url("/img/extra/1.png"); }
 
 .box-outside {
   position: absolute;
@@ -376,6 +376,9 @@ nav {
     .box-outside {
       left: 15%;
       width: 70%; } }
+  @media only screen and (max-width: 332px) {
+    .box-outside {
+      height: 120px !important; } }
 
 .box-content {
   position: relative;
@@ -388,12 +391,19 @@ nav {
   @media only screen and (max-width: 768px) {
     .box-content {
       height: 86px !important; } }
+  @media only screen and (max-width: 332px) {
+    .box-content {
+      height: 106px !important; } }
   .box-content p {
     text-align: center;
     color: #e5e5e5;
     font-size: 12px;
     padding: 15px;
     line-height: 18px; }
+    @media only screen and (max-width: 332px) {
+      .box-content p {
+        height: auto;
+        padding: 10px 15px !important; } }
 
 .tools {
   padding-top: 60px;
@@ -435,13 +445,13 @@ nav {
         .tools-content ul li {
           margin-bottom: 85px; } }
     .tools-content ul li:nth-child(1) {
-      background: transparent url("/PortfolioThiago/img/tools/photoshop.png"); }
+      background: transparent url("/img/tools/photoshop.png"); }
     .tools-content ul li:nth-child(2) {
-      background: transparent url("/PortfolioThiago/img/tools/android.png"); }
+      background: transparent url("/img/tools/android.png"); }
     .tools-content ul li:nth-child(3) {
-      background: transparent url("/PortfolioThiago/img/tools/unity.png"); }
+      background: transparent url("/img/tools/unity.png"); }
     .tools-content ul li:nth-child(4) {
-      background: transparent url("/PortfolioThiago/img/tools/office.png"); }
+      background: transparent url("/img/tools/office.png"); }
 
 .tools-description {
   position: absolute;
@@ -517,7 +527,7 @@ nav {
 .contact {
   height: 720px;
   width: 100%;
-  background: transparent url("/PortfolioThiago/img/landscape-rj.png");
+  background: transparent url("/img/landscape-rj.png");
   position: relative; }
 
 .contact-me {
@@ -570,7 +580,7 @@ nav {
     color: #eaa25d;
     transition: color 0.6s; }
 
-.pressed-button {
+.contact-button {
   top: 8% !important;
   height: 500px !important;
   width: 80% !important;

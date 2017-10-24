@@ -11,9 +11,9 @@
       $(".navigationBar").slideToggle("slow");  
    });
 
-   $(".contact-me").click( function() {
+   /*$(".contact-me").click( function() {
       changeContactButton();      
-   });
+   });*/
 
    $(".nav-button").click( function() {
       var divId = $(this).attr("id");
@@ -89,7 +89,7 @@
       }
    }
 
-   function changeContactButton () { 
+   /*function changeContactButton () { 
       if (buttonState == false) {
          $(".contact-me").addClass("pressed-button", function(){
             buttonState = true;
@@ -106,7 +106,7 @@
 
    function changeButtonText(text) {
       $(".contact-me").html(text);
-   }
+   }*/
 
    function brandAnimation() {
       var scrolled;

@@ -6,7 +6,7 @@
 	top: 80px;
 	//PARALAX EFFECT END
 
-	height: 950px;
+	height: 90vh;
 	background-color: $cor2;
 
 	@media only screen and (min-width: 1200px) {
@@ -14,7 +14,7 @@
 	}	
 
 	@media only screen and (max-width: 992px) {
-		height: 750px;
+		
 	}
 
 	@media only screen and (max-width: 480px) {
@@ -27,15 +27,15 @@
 	}	
 
 	.background {
-		height: 750px;
+		height: 90vh;
 		background: $cor2 url('/img/mouse.png');
-		background-position: center;		
+		background-position: center;
+		background-position-y: -1vh;		
 		background-repeat: no-repeat;
-		background-size: auto 725px;
+		background-size: auto 90vh;
 
 		@media only screen and (max-width: 992px) { 
-			height: 500px;
-			background-size: auto 500px;
+			
 		}
 
 		@media only screen and (max-width: 468px) { 
@@ -45,16 +45,20 @@
 
 		.logo {
 		    display: block;
-   			margin: 146px auto;
-		    height: 445px;
+   			margin: 15vh auto;
+		    height: 60vh;
 
-		    @media only screen and (max-width: 992px) { 
-				margin: 95px auto;
-   				height: 300px;
+	     	@media only screen and (max-width: 1200px) { 
+				height: 55vh;
 			}
 
-			@media only screen and (max-width: 600px) { 
-			   	width: 100%;
+		    @media only screen and (max-width: 992px) { 
+				height: 47vh;
+   				margin: 20vh auto;
+			}
+
+			@media only screen and (max-width: 860px) { 
+			   	width: 90%;
     			height: auto;
 			}
 
@@ -77,12 +81,13 @@
 }//END SECTION
 
 .welcome {
-		margin-top: 850px;
+		margin-top: 100vh;
 		$height: 200px;
 		height: $height;
 		background-color: $cor3;
 
 		@media only screen and (max-width: 992px) { 
+
 		    height: 250px;		    
 		}
 
@@ -103,7 +108,7 @@
 			    padding-bottom: $height/4;
 			}
 
-			p {
+			h2 {
 				line-height: 30px;
 				text-align: center;
 				font-size: 18px;

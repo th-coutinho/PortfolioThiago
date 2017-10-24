@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
-      <link href="css/base/main.css" rel="stylesheet">
+      <link href="css/base/main-min.css" rel="stylesheet">
 
       <!-- Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
@@ -26,11 +26,11 @@
    <body>
       <header>
 
-         <button class="navbar-button">
+         <div class="navbar-button">
            <div></div>
            <div></div>
            <div></div>
-         </button>
+         </div>
 
          <nav class="navigationBar">
             <ul>
@@ -65,23 +65,23 @@
       <section class="brand">      
          <div class="container background">
             <h1>
-               <img class="logo" src="/PortfolioThiago/img/logo.png" alt="Thiago Coutinho">
+               <img class="logo" src="/img/logo.png" alt="Thiago Coutinho">
             </h1>         
          </div>       
       </section>
 
        <section class="welcome">
          <div class="container">
-            <p>
+            <h2>
                Olá, meu nome é Thiago. Sou um desenvolvedor <span>front-end</span> do Rio de Janeiro.<br>
                Minhas especialidades são páginas <span>bonitas</span> e <span>responsivas</span>!
-            </p>
+            </h2>
          </div>         
       </section> 
 
       
 
-      <section id="skills" class="skills">
+      <section class="skills">
          <div class="skills-title container">
             <hr class="division-marker">
             <h2 class="section-name">Tenho conhecimentos em:</h2>
@@ -184,7 +184,7 @@
          </div>
       </section>
 
-      <section class="profile">
+      <article class="profile">
          <div class="photo">         
          </div>      
          <div class="text">
@@ -198,23 +198,31 @@
                Atualmente, estou também disponível para trabalhos freelancer e home office.
             </p>         
          </div>
-      </section>
+      </article>
 
       <footer class="contact">
-         <button class="contact-me">Entre em contato</button>
+         <button class="contact-me contact-button">
+            <p class='button-email'>Thiagoscoutinho92@gmail.com</p>
+            <hr class='button-hr'>
+            <p class='button-tel'>21 9 8095-3323</p>
+         </button>
          <div class="social-medias">
             <div class="container">
                <ul class="center-block">
-                  <a href="https://www.facebook.com/thiago.coutinho.739">
+                  
                      <li>
-                        <i class="social-icon fa fa-facebook-official"></i>
+                        <a href="https://www.facebook.com/thiago.coutinho.739">
+                           <i class="social-icon fa fa-facebook-official"></i>
+                        </a>
                      </li>
-                  </a>
-                  <a href="https://www.linkedin.com/in/thiago-coutinho-4331a4103/">
+                  
+                  
                      <li>
-                        <i class="social-icon fa fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/thiago-coutinho-4331a4103/">
+                           <i class="social-icon fa fa-linkedin"></i>
+                        </a>
                      </li>
-                  </a>
+                 
                </ul>
             </div>
          </div>
@@ -223,7 +231,7 @@
       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
       <script src="https://plugins.compzets.com/animatescroll/js/animatescroll.js?v=1.0.5"></script>   
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="/PortfolioThiago/js/portfolio-animations-min.js"></script>
+      <script src="/js/portfolio-animations-min.js"></script>
 
    </body>  
 </html>

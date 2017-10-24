@@ -40,9 +40,10 @@ $estilo-fonte: 'Raleway', sans-serif;
 .section-name {
 	float: left;
 	width: 38%;
+	$section-font: 24px;
 
 	line-height: 0;
-    font-size: 24px;
+    font-size: $section-font;
 	font-weight: 700;
 	@extend %darkerFont;
 
@@ -54,9 +55,13 @@ $estilo-fonte: 'Raleway', sans-serif;
 
 	@media only screen and (max-width: 768px) {
 		width: 50%;
-	    line-height: 40px;
-    /* height: 53px; */
-    	margin-top: 0;
+	    line-height: $section-font;	    
+    	margin-top: $section-font / 3;	  
+	}
+
+	@media only screen and (max-width: 480px) {
+		width: 50%;
+    	margin-top: 10px;
 	}
 }
 
