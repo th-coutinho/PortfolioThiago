@@ -555,11 +555,7 @@ nav {
   @media only screen and (max-width: 600px) {
     .contact-me {
       width: 80%;
-      right: 10%; } }
-  .contact-me:hover {
-    width: 400px;
-    background-color: #ce9671;
-    transition: all 1s; }
+      right: 10%; } }  
 
 .social-medias {
   width: 100%;
